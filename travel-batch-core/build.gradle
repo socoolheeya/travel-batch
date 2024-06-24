@@ -1,0 +1,8 @@
+description('travel-batch-core')
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-batch'
+    implementation project(':travel-yaml-importer')
+    implementation project(':travel-system-core')
+    api project(':travel-domain-rds')
+}
