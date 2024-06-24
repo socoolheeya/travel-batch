@@ -1,0 +1,9 @@
+[submodule "travel-yaml-importer"]
+	path = travel-yaml-importer
+	url = https://github.com/socoolheeya/travel-yaml-importer.git
+[submodule "travel-domain-rds"]
+	path = travel-domain-rds
+	url = https://github.com/socoolheeya/travel-domain-rds.git
+[submodule "travel-system-core"]
+	path = travel-system-core
+	url = https://github.com/socoolheeya/travel-system-core.git
