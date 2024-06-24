@@ -1,0 +1,5 @@
+rootProject.name = 'travel-batch'
+include 'travel-batch-core'
+include 'travel-system-core'
+include 'travel-domain-rds'
+include 'travel-yaml-importer'
