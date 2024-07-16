@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: batch-core
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/travel?useSSL=false
+    username: root
+    password: 1234
+    hikari:
+      pool-name: main-HikariPool
+      maximum-pool-size: 10
+      connection-timeout: 20000
+      minimum-idle: 5
